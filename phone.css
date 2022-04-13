@@ -1,0 +1,39 @@
+#navbar{
+    overflow: hidden;
+    flex-direction: column;
+    width: 1261px;
+}
+#home{
+    overflow: hidden;
+    width: 1052px;
+    position: absolute;
+    height: 552px;
+}
+#home::before{
+    display: flex;
+
+}
+#services{
+    flex-direction: column;
+    width: 1030px;
+    height: 310px;
+    margin: 704px 122px;
+}
+.h-heading{
+    position: absolute;
+    margin: -216px 2px;
+}
+#services .box{
+    display: flex;
+    flex-direction: column;
+}
+#client{
+    width: 1200px;
+}
+#contact{
+    width: 1200px;
+}
+.center{
+    width: 946px;
+    margin: 17px 16px;
+}
